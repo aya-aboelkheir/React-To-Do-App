@@ -143,9 +143,7 @@ export default function TodoList() {
         aria-describedby="alert-dialog-description"
         role="alertdialog"
         dir="rtl"
-        sx={{
-          marginRight: "clamp(15px, 2vw, 0px)",
-        }}
+        
       >
         <DialogTitle
           id="alert-dialog-title"
