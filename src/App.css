@@ -1,0 +1,32 @@
+/* @import url('@https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap'); */
+@import "tailwindcss";
+/* ---------- CUSTOM FONT ---------*/
+
+@font-face {
+    font-family: Alexandia;
+    src: url("../public/fonts/Alexandria-Regular.ttf");
+    font-weight: normal
+}
+@font-face {
+    font-family: Alexandia;
+    src: url("../public/fonts/Alexandria-Bold.ttf");
+    font-weight: bold
+}
+@font-face {
+    font-family: Alexandia;
+    src: url("../public/fonts/Alexandria-Black.ttf");
+    font-weight: 900
+}
+@font-face {
+    font-family: Alexandria;
+    src: url("../public/fonts/Alexandria-Light.ttf");
+    font-weight: 200
+}
+
+body{
+    margin: 0;
+    font-family: "Alexandria";
+    font-weight: 400;
+
+}
+
