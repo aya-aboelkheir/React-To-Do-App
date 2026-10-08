@@ -144,7 +144,7 @@ export default function TodoList() {
         role="alertdialog"
         dir="rtl"
         sx={{
-          marginRight: "clamp(15px, 2vw, 17px)",
+          marginRight: "clamp(15px, 2vw, 0px)",
         }}
       >
         <DialogTitle
