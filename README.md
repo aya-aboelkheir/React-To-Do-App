@@ -1,16 +1,43 @@
-# React + Vite
+# React To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A task management application built with React, Material UI, and Tailwind CSS. The interface is in Arabic and supports creating, updating, completing, filtering, and deleting tasks.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Add new tasks
+- Edit existing tasks
+- Delete tasks with a confirmation dialog
+- Mark tasks as completed
+- Filter tasks by all, completed, and incomplete
+- Context-based task state and reducer actions
+- Toast notifications for task actions
+- Arabic right-to-left interface
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- Vite
+- Material UI (MUI)
+- Tailwind CSS
+- Context API and React hooks
+- UUID
 
-## Expanding the ESLint configuration
+## Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/aya-aboelkheir/React-To-Do-App.git
+cd React-To-Do-App
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+---
+
+A React practice project focused on component composition, state management, and interactive task flows.
